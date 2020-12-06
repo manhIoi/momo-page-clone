@@ -99,9 +99,6 @@
     justify-content: center;
     align-items: flex-end;
 }
-.reason-item{
-    padding: 20px;
-}
 .reason-item__avatar{
     position: relative;
     width: 80px;
@@ -117,6 +114,8 @@
     display: flex;
     align-items: center;
     justify-content: space-around;
+    padding: 20px;
+    width: 75%;
 }
 .reason-list-right{
     align-items: flex-start;
