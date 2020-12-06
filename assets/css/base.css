@@ -3,7 +3,7 @@
     --text-header-color: rgb(114,114,114);
     --text-heading-color: rgb(165,0,100);
     --text-color: rgb(119,111,114);
-    --height-header: 60px
+    --height-header: 60px;
 }
 *{
     box-sizing: inherit;
