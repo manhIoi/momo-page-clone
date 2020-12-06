@@ -16,46 +16,52 @@
 <body>
     <header class="header">
         <div class="header__navbar">
-            <ul class="navbar__list">
-                <li class="navbar__item">
-                    <a href="#" class="home-page">
+            <div class="navbar-wrap">
+                <div class="home-page">
+                    <a href="#" class="home-page__link">
                         <p class="home-page__img">MOMO</p>
                     </a>
-                </li>
-                <li class="navbar__item">
-                    <a href="#" class="navbar__item-link">
-                        Dịch vụ <i class="fas fa-chevron-down navbar__item-icon"></i>
-                    </a>
-                </li>
-                <li class="navbar__item">
-                    <a href="#" class="navbar__item-link">
-                        Về MoMo <i class="fas fa-chevron-down navbar__item-icon"></i>
-                    </a>
-                </li>
-                <li class="navbar__item">
-                    <a href="#" class="navbar__item-link">
-                        Tin tức <i class="fas fa-chevron-down navbar__item-icon"></i>
-                    </a>
-                </li>
-                <li class="navbar__item">
-                    <a href="#" class="navbar__item-link">
-                        Trợ giúp <i class="fas fa-chevron-down navbar__item-icon"></i>
-                    </a>
-                </li>
-                <li class="navbar__item">
-                    <a href="#" class="navbar__item-link">
-                        Đốii tác <i class="fas fa-chevron-down navbar__item-icon"></i>
-                    </a>
-                </li>
-                <li class="navbar__item">
-                    <a href="#" class="navbar__item-link">
-                        Tuyển dụng <i class="fas fa-chevron-down navbar__item-icon"></i>
-                    </a>
-                </li>
-            </ul>
+                </div>
+                <ul class="navbar__list hide-on-mobile-tablet">
+                    <li class="navbar__item">
+                        <a href="#" class="navbar__item-link">
+                            Dịch vụ <i class="fas fa-chevron-down navbar__item-icon"></i>
+                        </a>
+                    </li>
+                    <li class="navbar__item">
+                        <a href="#" class="navbar__item-link">
+                            Về MoMo <i class="fas fa-chevron-down navbar__item-icon"></i>
+                        </a>
+                    </li>
+                    <li class="navbar__item">
+                        <a href="#" class="navbar__item-link">
+                            Tin tức <i class="fas fa-chevron-down navbar__item-icon"></i>
+                        </a>
+                    </li>
+                    <li class="navbar__item">
+                        <a href="#" class="navbar__item-link">
+                            Trợ giúp <i class="fas fa-chevron-down navbar__item-icon"></i>
+                        </a>
+                    </li>
+                    <li class="navbar__item">
+                        <a href="#" class="navbar__item-link">
+                            Đốii tác <i class="fas fa-chevron-down navbar__item-icon"></i>
+                        </a>
+                    </li>
+                    <li class="navbar__item">
+                        <a href="#" class="navbar__item-link">
+                            Tuyển dụng <i class="fas fa-chevron-down navbar__item-icon"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            
             <div class="header__search">
                 <input type="text" class="search__box" placeholder="Bạn tìm gì ...">
                 <i class="search__icon fas fa-search"></i>
+            </div>
+            <div class="navbar__list-wrap">
+                <i class="fas fa-bars navbar__list-icon"></i>
             </div>
         </div>
     </header>
@@ -78,7 +84,7 @@
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col l-4 reason-list reason-list-left">
+                    <div class="col l-4 m-4 c-6 reason-list reason-list-left">
                         <div class="reason-item">
                             <div class="reason-item__avatar">
                                 <img src="https://static.mservice.io/jk/momo2020/img/momo/circle-bg-2.svg" alt="" class="reason-item__border">
@@ -110,18 +116,18 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col l-4">
+                    <div class="col l-4 m-4 c-0">
                         <img src="https://static.mservice.io/images/s/momo-upload-api-201005111248-637374931683322106.png" alt="" class="reason-use__img">
                     </div>
-                    <div class="col l-4 reason-list reason-list-right">
+                    <div class="col l-4 m-4 c-6 reason-list reason-list-right">
                         <div class="reason-item">
                             <div class="reason-item__avatar">
                                 <img src="https://static.mservice.io/jk/momo2020/img/momo/circle-bg-2.svg" alt="" class="reason-item__border">
                                 <img src="https://static.mservice.io/jk/momo2020/img/momo/icon6.svg" alt="" class="reason-item__img">
                             </div>
                             <div class="reason-item__content">
-                                <span class="content__highlight">Không tốn phí</span>
                                 Chuyển tiền siêu tốc
+                                <span class="content__highlight">Không tốn phí</span>
                             </div>
                         </div>
                         <div class="reason-item">
@@ -130,8 +136,8 @@
                                 <img src="https://static.mservice.io/jk/momo2020/img/momo/icon1.svg" alt="" class="reason-item__img">
                             </div>
                             <div class="reason-item__content">
-                                <span class="content__highlight">An toàn bảo mật</span>
                                 chuẩn quốc tế
+                                <span class="content__highlight">An toàn bảo mật</span>                               
                             </div>
                         </div>
                         <div class="reason-item">
@@ -139,9 +145,9 @@
                                 <img src="https://static.mservice.io/jk/momo2020/img/momo/circle-bg-2.svg" alt="" class="reason-item__border">
                                 <img src="https://static.mservice.io/jk/momo2020/img/momo/icon5.svg" alt="" class="reason-item__img">
                             </div>
-                            <div class="reason-item__content">
-                                <span class="content__highlight">Không tiền mặt</span>
+                            <div class="reason-item__content">                                
                                 Thanh toán hiện đại
+                                <span class="content__highlight">Không tiền mặt</span>
                             </div>
                         </div>
                     </div>
@@ -151,12 +157,12 @@
         </div>
         <div class="grid wide">
             <div class="row">
-                <div class="col l-12">
+                <div class="col l-12 m-12 c-12">
                     <h2 class="service__title">Tiện ích và dịch vụ</h2>
                 </div>
             </div>
             <div class="row">
-                <div class="col l-12">
+                <div class="col l-12 m-12 c-12">
                     <div class="service-list">
                         <div class="service-item service-item-active">
                             <img src="https://static.mservice.io/styles/desktop/images/tienich/icon11.svg" alt="" class="service-item__img">
@@ -199,7 +205,7 @@
                             Tài chính - Bảo hiểm                     </div>
                     </div>
                     <div class="service-layout row">
-                        <div class="content-wrap col l-6">
+                        <div class="content-wrap col l-5">
                             <div class="service-container">
                                 <h2 class="service__heading">Quyên góp- Từ thiện cùng MoMo</h2>
                                 <ul class="service__list-content">
@@ -209,19 +215,19 @@
                                 </ul>
                                 <div class="service__programs">
                                     <div class="row">
-                                        <div class="col l-3 service__program-item">
+                                        <div class="col l-3 m-3 c-3 service__program-item">
                                             <img src="https://static.mservice.io/img/momo-upload-api-201130105739-637423306590907551.png" alt="" class="program-item__img">
                                             Như chưa hề có cuộc chia ly
                                         </div>
-                                        <div class="col l-3 service__program-item">
+                                        <div class="col l-3 m-3 c-3 service__program-item">
                                             <img src="https://static.mservice.io/img/momo-upload-api-201013185830-637382123101342424.png" alt="" class="program-item__img">
                                             Hướng về Miền Trung
                                         </div>
-                                        <div class="col l-3 service__program-item">
+                                        <div class="col l-3 m-3 c-3 service__program-item">
                                             <img src="https://static.mservice.io/img/momo-upload-api-200821094627-637335999877473756.png" alt="" class="program-item__img">
                                             Quyết thắng Covid-19
                                         </div>
-                                        <div class="col l-3 service__program-item">
+                                        <div class="col l-3 m-3 c-3 service__program-item">
                                             <img src="https://static.mservice.io/img/momo-upload-api-200821094909-637336001493080065.jpg" alt="" class="program-item__img">
                                             Điều nhỏ bé vĩ đại
                                         </div>
@@ -232,7 +238,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="content-wrap-img col l-6">
+                        <div class="content-wrap-img col l-7">
                             <img src="https://static.mservice.io/img/momo-upload-api-201203094721-637425856413277404.jpg" alt="" class="content-img">
                         </div>
                         

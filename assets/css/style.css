@@ -1,10 +1,28 @@
 /* header */
+.header{
+    position: fixed;
+    background-color: rgba(255, 255, 255, 0.95);
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index:1024; 
+}
 .header__navbar{
     height: 60px;
     display: flex;
     /* background-color: var(--primary-color); */
     justify-content: space-around;
     align-items: center;
+}
+.navbar-wrap{
+    display: flex;
+    align-items: center;
+}
+.home-page__link{
+    text-decoration: none;
+    font-size: 2rem;
+    font-weight: 900;
+    color: var(--primary-color);
 }
 .navbar__list{
     padding-left: 0;
@@ -57,7 +75,15 @@
     font-weight: 600;
     margin: 0 10px;
 }
+.navbar__list-wrap{
+    font-size: 4rem;
+    color: rgb(140 140 140);
+    display: none;
+}
 /* body */
+.container{
+    margin-top: var(--height-header);
+}
 .banner{
     position: relative;
 }
@@ -90,6 +116,7 @@
     text-align: center;
     color: var(--text-heading-color);
     font-size: 3rem;
+    line-height: 3rem;
     font-weight: 700;
     padding: 20px;
 }
@@ -118,10 +145,13 @@
     width: 75%;
 }
 .reason-list-right{
-    align-items: flex-start;
+
 }
 .reason-list-right .reason-item{
     flex-direction: row-reverse;
+}
+.reason-use__img{
+    width: 100%;
 }
 
 .reason-item__content{
@@ -141,16 +171,15 @@
 
 .service-list{
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
 }
 
 .service-item{
-    flex: 1;
     text-align: center;
     background-color: rgb(245,245,245);
     height: 80px;
-    /* border-top: 1px solid rgb(214, 214, 214);
-    border-bottom: 1px solid rgb(214, 214, 214); */
+    width: 100px;
     border: 1px solid  rgb(214, 214, 214);
     border-left: none;
     font-size: 1.2rem;
@@ -185,11 +214,13 @@
     padding: 20px;
     background-color: rgb(255,233,241);
     border-radius: 30px;
-    margin: 20px 40px;
+    width: 100%;
+    margin: 20px auto;
+
 }
 .content-img{
    width: 100%;
-   height: 100%;
+   height: 90%;
    border-radius: 10px;
 }
 .service-container{
@@ -209,6 +240,7 @@
 }
 .service__program-item{
     text-align: center;
+    font-size: 1.4rem;
 }
 .service__program-item:hover{
     color: var(--primary-color);
