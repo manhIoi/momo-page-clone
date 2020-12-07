@@ -112,13 +112,12 @@
 }
 
 /* reason use */
-.reson-use__title, .service__title, .benefit-heading{
+.reson-use__title, .service__title, .benefit-heading, .instruction__heading{
     text-align: center;
     color: var(--text-heading-color);
     font-size: 3rem;
     line-height: 3rem;
     font-weight: 700;
-    padding: 20px;
 }
 .reason-list{
     display: flex;
@@ -314,4 +313,110 @@
 }
 .card__watch-more:hover{
     color: var(--primary-color);
+}
+
+/* instruction */
+.instruction{
+    background-image: url(https://static.mservice.io/jk/momo2020/img/momo/bg-taiapp-big.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.instruction__heading{
+    color: white;
+    margin-top: 0;
+    padding-top: 20px;
+}
+.instruction__list{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    font-size: 1.6rem;
+    font-weight: 700;
+}
+.instruction__item{
+    background-color: rgb(189,189,189);
+    padding: 10px;
+    margin: 20px;
+    width: 230px;
+    text-align: center;
+    /* border-radius: 6px; */
+    border-top-left-radius: 6px;
+    border-bottom-left-radius: 6px ;
+    position: relative;
+}
+.instruction__item::after{
+    content: "";
+    position: absolute;
+    border: 20px solid;
+    border-color: transparent transparent transparent rgb(189,189,189);
+    right: -40px;
+    top: 0;
+}
+.instruction__device{
+    /* position: relative; */
+}
+.instruction__device-container{
+    height: 500px;
+    width: 300px;
+    background-image: url(https://static.mservice.io/blogscontents/momo-upload-api-190621112400-636967130404212068.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    float: right;
+}
+.instruction__steps-item{
+    list-style: none;
+    width: 50%;
+    padding: 20px 0;
+}
+.instruction-item__title{
+    color: white;
+    font-size: 1.4rem;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+}
+.instruction-item__title span {
+    height: 30px;
+    width: 30px;
+    background-color: white;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 3rem;
+    color: rgb(141,24,94);
+}
+.instruction-item__title p {
+    margin: 0 20px;
+}
+.instruction-item__content{
+    font-size: 1.4rem;
+    color: rgb(238, 238, 238);
+    margin-left: 50px;
+    padding: 10px 0;
+    text-decoration: none;
+    animation: disappear ease 2s;
+    display: none;
+    position: relative;
+}
+.instruction__steps-item:target span{
+    background-color: rgba(141, 24, 94, 0.801);
+    color: white;
+   
+}
+.instruction__steps-item:target .instruction-item__content{
+    display: block;
+    animation: appear ease-in-out 0.5s;
+}
+.tobe-customer{
+    margin: auto;
+    margin: 20px auto;
+}
+.tobe-customer{
+    color: white;
+    font-size: 1.6rem;
+    background-color: rgba(0, 0, 0, 0.4);
+    padding: 16px;
+}
+.tobe-customer strong {
+    color: orange;
 }

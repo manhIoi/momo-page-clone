@@ -13,6 +13,9 @@
     .navbar__list-wrap{
         display: block;
     }
+    .instruction__steps-item{
+        margin: auto;
+    }
 }
 
 /* mobie */

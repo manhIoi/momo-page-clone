@@ -34,3 +34,14 @@ body{
         transform: rotate(0deg);
     }
 }
+@keyframes appear{
+    from{
+        opacity: 0;
+        top: -20px;
+    }
+    to
+    {
+        top: 0;
+        opacity: 1;
+    }
+}
