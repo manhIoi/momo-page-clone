@@ -320,6 +320,8 @@
     background-image: url(https://static.mservice.io/jk/momo2020/img/momo/bg-taiapp-big.jpg);
     background-repeat: no-repeat;
     background-position: center;
+    background-size: cover;
+    padding: 40px 0;
 }
 .instruction__heading{
     color: white;
@@ -412,11 +414,21 @@
     margin: 20px auto;
 }
 .tobe-customer{
+    text-align: center;
     color: white;
     font-size: 1.6rem;
     background-color: rgba(0, 0, 0, 0.4);
-    padding: 16px;
+    padding: 10px ;
+    margin-top: 40px;
 }
 .tobe-customer strong {
-    color: orange;
+    color: rgb(255,205,0)
+}
+.wacth-now{
+    width: 100px;
+    background-color: rgb(255,205,0);
+    border: 0;
+    border-radius: 12px;
+    padding: 6px 0;
+    margin: 0 20px;
 }
