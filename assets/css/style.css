@@ -112,7 +112,7 @@
 }
 
 /* reason use */
-.reson-use__title, .service__title{
+.reson-use__title, .service__title, .benefit-heading{
     text-align: center;
     color: var(--text-heading-color);
     font-size: 3rem;
@@ -266,4 +266,52 @@
     border-radius: 18px;
     font-weight: 900;
     color: white;
+}
+
+/* benefit */
+.overlay-benefit{
+    background-color: rgb(234,235,238);
+    padding-bottom: 40px;
+}
+.benefit-heading{
+    padding:40px 0 20px 0;
+}
+.benefit-card{
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 4px 0 10px rgba(0, 0, 0, 0.05),
+    0 -4px 10px rgba(0, 0, 0, 0.05),
+    0 4px 10px rgba(0, 0, 0, 0.05);
+    margin-bottom: 30px;
+}
+
+.card__img{
+    width: 100%;
+    border-radius: 10px;
+}
+.card-info-wrap{
+    padding: 16px;
+}
+.card__title{
+    font-size: 2rem;
+    font-weight: 600;
+}
+.card__content{
+    font-size: 1.4rem;
+    color: var(--text-color);
+}
+.card__footer{
+    padding-top: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.card__exipry-day{
+    font-size: 1.4rem;
+}
+.card__watch-more{
+    font-size: 1.4rem;
+    text-decoration: none;
+}
+.card__watch-more:hover{
+    color: var(--primary-color);
 }
