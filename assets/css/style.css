@@ -112,7 +112,7 @@
 }
 
 /* reason use */
-.reson-use__title, .service__title, .benefit-heading, .instruction__heading{
+.reson-use__title, .service__title, .benefit-heading, .instruction__heading, .security__heading{
     text-align: center;
     color: var(--text-heading-color);
     font-size: 3rem;
@@ -420,6 +420,7 @@
     background-color: rgba(0, 0, 0, 0.4);
     padding: 10px ;
     margin-top: 40px;
+    border-radius: 6px;
 }
 .tobe-customer strong {
     color: rgb(255,205,0)
@@ -431,4 +432,66 @@
     border-radius: 12px;
     padding: 6px 0;
     margin: 0 20px;
+    animation: a ease 1s infinite;
+    font-weight: 600;
+    color: rgba(0, 0, 0, 0.7);
 }
+/* security */
+.security__list-title{
+    list-style: none;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    font-size: 1.8rem;
+    font-weight: 700;
+    color: rgba(0, 0, 0, 0.7);
+}
+.security__item-title{
+    margin: 10px;
+    padding: 10px 0; 
+    cursor: pointer;
+    position: relative;
+}
+.security__item-title::after{
+    content: "";
+    position: absolute;
+    bottom: 0;
+    height: 2px;
+    right: 0;
+    left: 0;
+    background-color: rgb(165,0,100);
+    display: none;
+}
+.security__item-title:hover{
+    color: rgb(165,0,100);
+   transition: ease 1s;
+    
+}
+.security__item-title:hover.security__item-title::after{
+    display: block;
+    animation: fadeIn ease 1s;
+}
+.security__list-content{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+    font-size: 1.6rem;
+    color: rgba(0, 0, 0, 0.7);
+}
+.security__item-content{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+.lnr-checkmark-circle{
+    color: green;
+    font-size: 3rem;
+    margin: 0 10px 0 30px; 
+}
+.security__img{
+    max-width: 80%;
+    height: auto;
+}
+

@@ -45,3 +45,20 @@ body{
         opacity: 1;
     }
 }
+@keyframes a{
+    0%{
+        box-shadow: 0 0 0;
+    }
+    
+    50%{
+        box-shadow: 0 0 0 8px rgba(255, 204, 0, 0.096);
+    }  
+}
+@keyframes fadeIn{
+    from{
+        right: 100%;
+    }
+    to{
+        right: 0;
+    }
+}
