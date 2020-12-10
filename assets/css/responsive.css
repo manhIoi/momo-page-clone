@@ -22,6 +22,15 @@
         left: 50%;
         transform: translate(-50%,-50%);
     }
+    .reson-use__title, .service__title, .benefit-heading, .instruction__heading, .security__heading{
+        font-size: 2.6rem;
+    }
+    .overlay-benefit .row{
+        padding: 0 20px;
+    }
+    .footer{
+        padding: 0 20px;
+    }
 }
 
 /* mobie */
@@ -38,6 +47,9 @@
     }
     .service-donation-link{
         margin: 0 auto 20px auto;
+    }
+    .benefit-card{
+        margin: 20px 40px;
     }
 }
 /* tablet */
