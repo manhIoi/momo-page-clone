@@ -396,15 +396,15 @@
     animation: disappear ease 2s;
     display: none;
     position: relative;
+    margin: 0 0 0 50px;
 }
-.instruction__steps-item:target span{
+.instruction-item__title.active span{
     background-color: rgba(141, 24, 94, 0.801);
     color: white;
-   
 }
-.instruction__steps-item:target .instruction-item__content{
-    display: block;
+.instruction-item__title.active ~ .instruction-item__content{
     animation: appear ease-in-out 0.5s;
+    display: block;
 }
 .tobe-customer{
     margin: auto;
