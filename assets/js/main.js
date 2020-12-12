@@ -1,5 +1,6 @@
+
+// Set Active for instructionItem while clicked
 var instructionItemTitle = document.querySelectorAll('.instruction-item__title')
-var instructionItemContent = document.querySelectorAll('.instruction-item__content')
 for (var i= 0;i <instructionItemTitle.length;i++){
     // console.log(instructionItemTitle[i])
     instructionItemTitle[i].onclick = function (){

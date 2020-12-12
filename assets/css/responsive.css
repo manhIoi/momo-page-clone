@@ -28,6 +28,9 @@
     .overlay-benefit .row{
         padding: 0 20px;
     }
+    .news__list-content{
+        padding: 0 20px;
+    }
     .footer{
         padding: 0 20px;
     }
@@ -51,10 +54,30 @@
     .benefit-card{
         margin: 20px 40px;
     }
+    .content__wrap{
+        display: flex;
+        flex-direction: row-reverse;
+
+    }
+    .news__content-img{
+        width: 30%;
+    }
+    .news__content-text{
+        margin: 0;
+    }
+    .footer__policy-socials-dowloadapps{
+        flex-direction: column-reverse;
+    }
+    .socials__item{
+        padding-top: 10px;
+    }
 }
 /* tablet */
 @media(min-width: 740px) and (max-width:1113px){
     .hide-on-tablet{
         display: none;
+    }
+    .service-donation{
+        padding-bottom: 20px;
     }
 }
