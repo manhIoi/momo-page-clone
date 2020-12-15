@@ -62,3 +62,10 @@ body{
         right: 0;
     }
 }
+
+.swingUp{
+    animation: swingUp ease 0.5s;
+}
+.swingDown{
+    animation: swingDown ease 0.5s;
+}
