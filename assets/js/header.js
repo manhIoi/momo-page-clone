@@ -8,11 +8,12 @@ navbarListWrap.onclick = function(e){
     if (iconSwing.contains(open)){
         iconSwing.remove(open)
         iconSwing.add(close)
-        navbarList.style.top = '-500px'
+        navbarList.style.height = '0'
+        
     }
     else{
         iconSwing.remove(close)
         iconSwing.add(open)
-        navbarList.style.top = 'var(--height-header)'
+        navbarList.style.height = 'calc(6 * var(--height-header))'
     }
 }

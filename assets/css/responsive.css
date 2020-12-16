@@ -10,10 +10,13 @@
         position: absolute;
         width: 80%;
         margin: 0;
-        top: -500px;
+        /* top: -500px; */
+        top: var(--height-header);
         background-color: white;
         flex-direction: column;
-        transition: all 0.5s;
+        transition: height  ease 0.5s;
+        overflow: hidden;
+        height: 0;
     }
     .navbar__item{
         width: 100%;

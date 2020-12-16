@@ -407,6 +407,7 @@
     display: flex;
     align-items: center;
     text-decoration: none;
+    cursor: pointer;
 }
 .instruction-item__title span {
     height: 30px;
@@ -533,7 +534,6 @@
 }
 .news__content-img{
     width: 100%;
-    border-radius: 4px;
     transition: transform 0.3s;
 }
 .news__item-content{
@@ -542,6 +542,8 @@
 }
 .content__wrap{
     text-decoration: none;
+    overflow: hidden;
+    border-radius: 4px;
 }
 .news__content-text{
     font-size: 1.4rem;
